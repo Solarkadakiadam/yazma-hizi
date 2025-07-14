@@ -207,6 +207,14 @@ export default function Home() {
             <div className="mb-2">Doğru Kelime: <span className="font-semibold">{correct.filter(Boolean).length}</span></div>
             <div className="mb-2">Toplam Kelime: <span className="font-semibold">{correct.length}</span></div>
             <button onClick={restart} className="mt-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors">Yeniden Başlat</button>
+            <a
+              href={`https://twitter.com/intent/tweet?text=Yazma%20Hızı%20Testi%20sonucum:%20DKHS%3A%20${cpm}%2C%20DKS%3A%20${wpm}%20%7C%20https%3A%2F%2Fyazmahizi.com`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 ml-2 inline-block bg-blue-400 hover:bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
+            >
+              Sonucu Paylaş
+            </a>
           </div>
         )}
       </div>
