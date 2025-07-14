@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yazma Hızı Testi (YZT)
 
-## Getting Started
+Yazma Hızı Testi, Türkçe ana dili konuşanlar için hazırlanmış, sade ve modern bir yazma hızı ölçme uygulamasıdır. Dakikada kaç kelime ve harf yazabildiğinizi (DKS ve DKHS) ölçer, gelişiminizi takip etmenizi sağlar.
 
-First, run the development server:
+## Özellikler
+- **Tamamen Türkçe** ve kök kelimelerden oluşan kelime havuzu
+- **Dakikada Harf Sayısı (DKHS)** ve **Dakikada Kelime Sayısı (DKS)** ölçümü
+- 1 dakikalık gerçek zamanlı test
+- Hatalı ve doğru kelime vurgulama
+- Responsive ve sade arayüz
+- Koyu ve açık tema desteği
+- Açık kaynak, reklamsız ve ücretsiz
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Ekran Görüntüleri
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Buraya uygulamanın ekran görüntülerini ekleyebilirsiniz.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Kurulum & Kullanım
 
-## Learn More
+1. **Projeyi klonlayın:**
+   ```bash
+   git clone https://github.com/solarkadakiadam/yazma-hizi.git
+   cd yazma-hizi
+   ```
+2. **Bağımlılıkları yükleyin:**
+   ```bash
+   npm install
+   ```
+3. **Geliştirme sunucusunu başlatın:**
+   ```bash
+   npm run dev
+   ```
+4. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Katkıda Bulunma
+- Pull request ve önerilere açıktır.
+- Kelime havuzunu geliştirmek veya yeni özellik eklemek için katkıda bulunabilirsiniz.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Lisans
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+MIT Lisansı
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Geliştirici & İletişim
+
+- Hazırlayan: **Ömer Avşar**  
+- GitHub: [solarkadakiadam](https://github.com/solarkadakiadam)
+
+Her türlü görüş ve öneriniz için GitHub üzerinden iletişime geçebilirsiniz.
